@@ -4,7 +4,6 @@ Supplementary material for our TORQUE 2020 Submission "Temporal Causal Inference
 # Contents 
 This repository contains:-
 1. Flowchart of preprocessing process towards labelling of faults in SCADA data and cleaning, for temporal causal inference.
-2. Additional temporal causal graphs for higher significance measure e.g. 0.95, wherein we obtained several hidden confounders, many of which are difficult to explain in principle, but affect the prediction ability of the CNN.
 
 
 # Acknowledgments
