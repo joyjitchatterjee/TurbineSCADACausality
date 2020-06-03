@@ -4,10 +4,16 @@ Supplementary material for our TORQUE 2020 Submission "Temporal Causal Inference
 # Contents 
 This repository contains:-
 1. Flowchart of preprocessing process towards labelling of faults in SCADA data and cleaning, for temporal causal inference.
+2. Multiple temporal causal graphs for different types of anomalies, constructed using SCADA data.
 
 Note: The causal relationships X->Y should be interpreted as X is caused by Y, where X and Y are SCADA features (time-series) of observations. 
 
 # Acknowledgments
 We would like to acknowledge the Offshore Renewable Energy (ORE) Catapult for providing us access to operational data from the turbine through Platform for Operational Data (POD) (http://pod.ore.catapult.org.uk). We are also grateful to Aura Innovation Centre and the University of Hull for their support.
+
+We are also thankful to Nauta et al. for their paper on "Causal Discovery with Attention-Based Convolutional Neural Networks" https://www.mdpi.com/2504-4990/1/1/19 which proposes the Temporal Causal Discovery Framework used as the basis to construct temporal causal graphs, and their learning model for financial & neuroscientfic domains was modified and utlised to construct the temporal causal graphs for our study using SCADA data under different types of anomalies. 
+
 # Disclaimer
 It should be noted that the causality graphs obtained above are an interpretation on how the AI model performs its predictions, and what are the key features the model looks at while predicting. Thereby, there may be many causal relationships which do no make sense to a human, and we do not claim the accuracy of all the relationships. Rather, these are machine-utilised during prediction, and temporal causal inference can help engineers & technicians investigate why the anomaly is caused as a consequence of such features. 
+
+
