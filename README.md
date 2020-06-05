@@ -6,7 +6,7 @@ This repository contains:-
 1. Flowchart of preprocessing process towards labelling of faults in SCADA data and cleaning, for temporal causal inference.
 2. Multiple temporal causal graphs for different types of anomalies, constructed using SCADA data.
 
-Note: The causal relationships Y->X should be interpreted as: change in Y occurs due to variation in X, where X and Y are SCADA features (time-series) of observations. 
+*Note: The causal relationships Y->X should be interpreted as: change in Y occurs due to variation in X, where X and Y are SCADA features (time-series) of observations. *
 
 # Acknowledgments
 We would like to acknowledge the Offshore Renewable Energy (ORE) Catapult for providing us access to operational data from the turbine through Platform for Operational Data (POD) (http://pod.ore.catapult.org.uk). We are also grateful to Aura Innovation Centre and the University of Hull for their support.
