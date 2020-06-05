@@ -16,4 +16,6 @@ We are also thankful to Nauta et al. for their paper on "Causal Discovery with A
 # Disclaimer
 It should be noted that the causality graphs obtained above are an interpretation on how the AI model performs its predictions, and what are the key features the model looks at while predicting (derived during causal validation as per the attention scores of the dilated CNN for temporal causal discovery). Thereby, there may be many causal relationships which do no make sense to a human, and we do not claim the accuracy of all the relationships. Rather, these are machine-utilised during prediction, and temporal causal inference can help engineers & technicians investigate why the anomaly is caused as a consequence of such features. 
 
+# License
 
+This repo is based on the MIT License, which allows free use of the provided resources, subject to the origina sources being credit/acknowledged appropriately. The software/resources under MIT license is provided as is, without any liability or warranty at the end of the authors.
